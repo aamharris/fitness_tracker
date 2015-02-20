@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
 
 
 
-  validates :name, :length => { :minimum => 1, :message => "must be at least 3 characters!" }
+  # validates :name, :length => { :minimum => 1, :message => "must be at least 3 characters!" }
   validates :password, :length => { :minimum => 6 }
   validates :email, :uniqueness => true, :format => /.+@.+\..+/
 
