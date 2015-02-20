@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+}
+.header {
+    height:75px;
+    background-color: #2a2a2a;
+    border:1px solid #CCC;
+    margin:0px auto;
+}
+
+#site-title {
+  margin-left: 10%;
+  font-family: 'Cantarell', sans-serif;
+  color: white;
+}
+
+#site-banner {
+  position: relative;
+}
+
+#banner-content {
+  position: absolute;
+  top: 130px;
+  left: 10%;
+}
+
+.breakline-red {
+  display: block;
+  font-family: sans-serif;
+}
+
+.breakline {
+  color: red;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.breakline-subtitle {
+  font-size: 25px;
+  font-family: sans-serif;
+}
